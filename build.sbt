@@ -37,11 +37,9 @@ val orientdbTools = "com.orientechnologies" % "orientdb-tools" % "2.2.12"
 // https://mvnrepository.com/artifact/org.specs2/specs2_2.10
 //val specs2 = "org.specs2" % "specs2_2.11" % "3.3"
 
-val admin = "org.generic_configurator" %% "admin" % "0.1.0"
+//val admin = "org.generic_configurator" %% "admin" % "0.1.0"
 
-val config = "org.generic_configurator" %% "configurator" % "0.1.0"
-
-
+val configurator = "org.generic_configurator" %% "configurator" % "0.1.0"
 
 
 name := """config_admin_play"""
@@ -63,5 +61,6 @@ libraryDependencies ++= Seq(
   ,orientdbEnterprise
   ,orientdbClient
   ,orientdbTools
-  , admin
+  //,admin
+  ,configurator
 )
